@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.swal2-cancel, .swal2-confirm {
+    margin: 8px !important;
+    padding: 20px !important;
+}
+  
+.swal2-popup, .swal2-modal, .swal2-show {
+font-size: initial !important;
+}

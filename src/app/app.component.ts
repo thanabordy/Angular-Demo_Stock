@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RestService } from './services/rest.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-cmstok';
+
+  constructor(public rest:RestService){}
 }
